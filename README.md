@@ -1,9 +1,10 @@
-# Neural Networks on Silicon
-
 My name is Travis Dai. I'm currently pursuing my Ph.D. degree in Otago University. One of my research interests is accelerating neural network on network on chip. This is an exciting field where fresh ideas come out every day, so I'm collecting works on related topics. Welcome to join us!
 
+The Neural Networks on Silicon (architecture) is the hardware part of my reseach topic. On top of it, I also need to investigate the network part, which accelerates the neural network.
+
+
+
 ## Table of Contents
- - [My Contributions](#my-contributions)
  - [Conference Papers](#conference-papers)
    - 2014: [ASPLOS](#2014-asplos), [MICRO](#2014-micro)
    - 2015: [ISCA](#2015-isca), [ASPLOS](#2015-asplos), [FPGA](#2015-fpga), [DAC](#2015-dac)
