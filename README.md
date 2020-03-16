@@ -18,23 +18,6 @@ My name is Travis Dai. I'm currently pursuing my Ph.D. degree in Otago universit
    - [Network Compression](#network-compression)
    - [Other Topics](#other-topics)
 
- - [Industry Contributions](#industry-contributions)
-
-## My Contributions
-I'm working on energy-efficient architecture design for deep learning. Some featured works are presented here. Hope my new works will come out soon in the near future.
-
-[Jun. 2018] A retention-aware neural acceleration (RANA) framework has been designed, which strengthens DNN accelerators with refresh-optimized eDRAM to save total system energy. RANA includes three techniques from the training, scheduling, architecture levels respectively.
-- [**RANA: Towards Efficient Neural Acceleration with Refresh-Optimized Embedded DRAM.**](https://ieeexplore.ieee.org/abstract/document/8416839/) (**ISCA'18**) 
-  - **Training Level**: A retention-aware training method is proposed to improve eDRAM's tolerable retention time with no accuracy loss. Bit-level retention errors are injected during training, so the network' s tolerance to retention failures is improved. A higher tolerable failure rate leads to longer tolerable retention time, so more refresh can be removed.
-  - **Scheduling Level**: A system energy consumption model is built in consideration of computing energy, on-chip buffer access energy, refresh energy and off-chip memory access energy. RANA schedules networks in a hybrid computation pattern based on this model. Each layer is assigned with the computation pattern that costs the lowest energy.
-  - **Architecture Level**: RANA independently disables refresh to eDRAM banks based on their storing data's lifetime, saving more refresh energy. A programmable eDRAM controller is proposed to enable the above fine-grained refresh controls.
-
-[Apr. 2017] A deep convoultional neural network architecture (DNA) has been designed with 1~2 orders higher energy efficiency over the state-of-the-art works. I'm trying to further improve the architecture for ultra low-power compting. 
-- [**Deep Convolutional Neural Network Architecture with Reconfigurable Computation Patterns.**](http://ieeexplore.ieee.org/document/7898402/) (**TVLSI popular paper**)
-  - This is the first work to assign Input/Output/Weight Reuse to different layers of a CNN, which optimizes system-level energy consumption based on different CONV parameters.
-  - A 4-level CONV engine is designed to to support different tiling parameters for higher resource utilization and performance.
-  - A layer-based scheduling framework is proposed to optimize both system-level energy efficiency and performance.
-
 ## Conference Papers
 This is a collection of conference papers that interest me. The emphasis is focused on, but not limited to neural networks on silicon. Papers of significance are marked in **bold**. My comments are marked in *italic*.
 
