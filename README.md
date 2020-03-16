@@ -1,6 +1,6 @@
 # Neural Networks on Silicon
 
-My name is Travis Dai. I'm currently pursuing my Ph.D. degree in Otago university. One of my research interests is accelerating neural network on network on chip. This is an exciting field where fresh ideas come out every day, so I'm collecting works on related topics. Welcome to join us!
+My name is Travis Dai. I'm currently pursuing my Ph.D. degree in Otago University. One of my research interests is accelerating neural network on network on chip. This is an exciting field where fresh ideas come out every day, so I'm collecting works on related topics. Welcome to join us!
 
 ## Table of Contents
  - [My Contributions](#my-contributions)
